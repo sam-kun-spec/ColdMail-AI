@@ -33,7 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="flex items-center justify-between px-6 sm:px-8 h-16 bg-[#0d0a1a] border-b border-purple-900/40 backdrop-blur-sm">
 
             {/* Left — logo */}
-            <Link href="/" className="text-white font-bold text-lg tracking-tight">
+            <Link href="/" className="flex items-center gap-2 text-white font-bold text-lg tracking-tight">
+              <img src="/favicon-32x32.png" alt="ColdMail AI" className="h-7 w-7 rounded-lg" />
               ColdMail <span className="text-purple-400">AI</span>
             </Link>
 
